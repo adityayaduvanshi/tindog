@@ -1,0 +1,169 @@
+#title{
+  background-color: #ff4c68;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+/* Navbar section */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu',sans-serif;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+}
+
+.container-fluid{
+  padding: 3% 15% 7% 15%;
+}
+
+
+h1 h2 h3{
+  font-family: 'Montserrat;', sans-serif;
+}
+h2{
+  font-family: 'Montserrat;', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  margin-top: 20px;
+font-family: 'Montserrat;', sans-serif;
+font-weight: 900;
+font-size: 1.5rem;
+}
+.big-heading{
+  font-size: 3.5rem;
+font-family: 'Montserrat ', sans-serif;
+line-height: 1.5;
+color: white;
+font-weight: 900;
+}
+
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone{
+width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+p{
+  color: #8f8f8f;
+}
+
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+   color: #ef8172;
+}
+.icon:hover{
+  color:  #ff4c68;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+#testimonials{
+
+  background-color:#ef8172;
+  color: #fff;
+  text-align: center;
+}
+.carousel-inner{
+  padding:7% 15%;
+}
+
+.testimonial-pic{
+  width: 15%;
+  border-radius: 100%;
+  padding: 20px;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 70px 20px;
+}
+#pricing{
+  text-align: center;
+  padding:100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#cta{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+#cta h3{
+  color: white;
+    font-family: 'Montserrat;', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+#title{
+  text-align: center;
+}
+
+
+
+.iphone{
+  position: static;
+  transform: rotate(30deg) translateY(5rem);
+
+}
+#testimonials h2{
+  font-size: 2rem;
+}
+#testimonials .testimonial-pic{
+  width: 35%;
+}
+
+.press-image{
+  width:25%;
+}
+
+
+
+}
